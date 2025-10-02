@@ -1,0 +1,16 @@
+# Ignorar el entorno virtual
+entvitwh/
+
+# Archivos de cache de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de configuracion y variables de entorno
+.env
+*.log
+
+# Bases de datos locales
+*.sqllite3
+
+# Configuracion de VS Code
+.vscode/
