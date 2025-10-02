@@ -11,7 +11,7 @@ app = Flask(__name__)
 ENDPOINT = os.getenv("Webhook_Endpoint", "https://ejemplo.com/webhook")
 INTERVAL = int(os.getenv("Intervalo_Webhook", 60))  #Segundos
 
-def enviar_mensaje():
+def send_message():
     while True:
         try:
             response = requests.post(ENDPOINT, json={"message": "Webhook desde Flask"})
